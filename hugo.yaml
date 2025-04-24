@@ -1,6 +1,6 @@
-baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Site
+baseURL: https://blog.shenen.org/
+languageCode: zh
+title: ShenEn's Blog
 
 module:
   imports:
@@ -11,6 +11,87 @@ caches:
   images:
     dir: :cacheDir/images
 
+defaultContentLanguage: zh
+defaultContentLanguageInSubdir: true
+languages:
+  zh:
+    languageCode: zh
+    languageName: 中文
+    weight: 1
+    menu:
+      main:
+        - identifier: archives
+          name: 时间线
+          url: /archives/
+          weight: 10
+        - identifier: search
+          name: 搜索
+          url: /search/
+          weight: 20
+        - identifier: categories
+          name: 分类
+          url: /categories/
+          weight: 30
+        - identifier: tags
+          name: 标签
+          url: /tags/
+          weight: 40
+    params:
+      homeInfoParams:
+        Title: 你好,👋
+        Content: 记录一些经验
+  en:
+    languageCode: en
+    languageName: English
+    weight: 2
+    menu:
+      main:
+        - identifier: archives
+          name: Archives
+          url: /archives/
+          weight: 10
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 20
+        - identifier: categories
+          name: Categories
+          url: /categories/
+          weight: 30
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 40
+    params:
+      homeInfoParams:
+        Title: Hi there,👋
+        Content: Record some experience
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+minify:
+  disableXML: true
+  minifyOutput: true
+
+
+
 params:
-    assets:
-        disableFingerprinting: true
+  assets:
+    disableFingerprinting: true
+  env: production
+  author: ShenEn
+
+  socialIcons: # optional
+    - name: "github"
+      url: "<link>"
+    - name: "telegram"
+      url: "<link2>"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+

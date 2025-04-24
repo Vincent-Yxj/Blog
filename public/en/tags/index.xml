@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on ShenEn&#39;s Blog</title>
+    <link>http://localhost:1313/en/tags/</link>
+    <description>Recent content in Tags on ShenEn&#39;s Blog</description>
+    <generator>Hugo -- 0.146.7</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 24 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code</title>
+      <link>http://localhost:1313/en/tags/code/</link>
+      <pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Csharp</title>
+      <link>http://localhost:1313/en/tags/csharp/</link>
+      <pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/csharp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Markdown</title>
+      <link>http://localhost:1313/en/tags/markdown/</link>
+      <pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/markdown/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>S7</title>
+      <link>http://localhost:1313/en/tags/s7/</link>
+      <pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/tags/s7/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
