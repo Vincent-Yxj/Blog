@@ -10,3 +10,7 @@ module:
 caches:
   images:
     dir: :cacheDir/images
+
+params:
+    assets:
+        disableFingerprinting: true
