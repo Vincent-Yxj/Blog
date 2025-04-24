@@ -83,11 +83,13 @@ params:
   env: production
   author: ShenEn
 
+  ShowCodeCopyButtons: true
+
   socialIcons: # optional
     - name: "github"
-      url: "<link>"
+      url: "https://github.com/Vincent-Yxj"
     - name: "telegram"
-      url: "<link2>"
+      url: "https://t.me/En_Shen_Bot"
 
 outputs:
   home:
